@@ -2,7 +2,7 @@ const router = require("express").Router();
 const passport = require("passport");
 const User = require("../Model/User.Model");
 
-const CLIENT_URL = "https://auth-front-end.vercel.app/";
+const CLIENT_URL = "http://localhost:5173/";
 
 router.get("/login/success", (req, res) => {
   if (req.user) {

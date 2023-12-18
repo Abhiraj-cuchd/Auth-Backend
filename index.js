@@ -27,10 +27,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(cors({
-    origin: "https://auth-front-end.vercel.app/",
+    origin: "http://localhost:5173",
     methods: "GET, POST, PUT, DELETE",
     credentials: true
 }));
+
 
 app.use("/auth", authRoute);
 
