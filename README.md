@@ -1,4 +1,4 @@
-Garet Lanee - Interview Task.
+Garnet Lanee - Interview Task.
 
 Packages Used: 
   Passport.js - Social Authentication (Gooogle, Github)
